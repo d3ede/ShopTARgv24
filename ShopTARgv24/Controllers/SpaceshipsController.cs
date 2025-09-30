@@ -30,7 +30,7 @@ namespace ShopTARgv24.Controllers
         public IActionResult Index()
         {
             var result = _context.Spaceships
-                .Select(x => new SpaceshipsIndexViewModel
+                .Select(x => new RealEstateIndexViewModel
                 {
                     Id = x.Id,
                     Name = x.Name,

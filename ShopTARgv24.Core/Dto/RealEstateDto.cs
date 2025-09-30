@@ -1,6 +1,8 @@
-﻿namespace ShopTARgv24.Core.Domain
+﻿using Microsoft.AspNetCore.Http;
+
+namespace ShopTARgv24.Core.Dto
 {
-    public class RealEstate
+    public class RealEstateDto
     {
         public Guid? Id { get; set; }
         public int? Area { get; set; }
