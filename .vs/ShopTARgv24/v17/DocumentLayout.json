@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24.Data\\Migrations\\20250930152452_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ShopTARgv24.Data\\Migrations\\20250930152452_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC4D9284-B987-4E9F-89EF-BE1A40B96FBC}|ShopTARgv24\\ShopTARgv24.csproj|c:\\users\\opilane\\source\\repos\\shoptargv24\\shoptargv24\\controllers\\realestatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC4D9284-B987-4E9F-89EF-BE1A40B96FBC}|ShopTARgv24\\ShopTARgv24.csproj|solutionrelative:shoptargv24\\controllers\\realestatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC4D9284-B987-4E9F-89EF-BE1A40B96FBC}|ShopTARgv24\\ShopTARgv24.csproj|c:\\users\\opilane\\source\\repos\\shoptargv24\\shoptargv24\\models\\realestate\\realestatedeleteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC4D9284-B987-4E9F-89EF-BE1A40B96FBC}|ShopTARgv24\\ShopTARgv24.csproj|solutionrelative:shoptargv24\\models\\realestate\\realestatedeleteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F0F58A9-65C6-4EC7-9DEE-5DE45FCD7539}|ShopTARgv24.ApplicationServices\\ShopTARgv24.ApplicationServices.csproj|c:\\users\\opilane\\source\\repos\\shoptargv24\\shoptargv24.applicationservices\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F0F58A9-65C6-4EC7-9DEE-5DE45FCD7539}|ShopTARgv24.ApplicationServices\\ShopTARgv24.ApplicationServices.csproj|solutionrelative:shoptargv24.applicationservices\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC4D9284-B987-4E9F-89EF-BE1A40B96FBC}|ShopTARgv24\\ShopTARgv24.csproj|c:\\users\\opilane\\source\\repos\\shoptargv24\\shoptargv24\\views\\realestate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DC4D9284-B987-4E9F-89EF-BE1A40B96FBC}|ShopTARgv24\\ShopTARgv24.csproj|solutionrelative:shoptargv24\\views\\realestate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F0F58A9-65C6-4EC7-9DEE-5DE45FCD7539}|ShopTARgv24.ApplicationServices\\ShopTARgv24.ApplicationServices.csproj|c:\\users\\opilane\\source\\repos\\shoptargv24\\shoptargv24.applicationservices\\services\\realestateservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F0F58A9-65C6-4EC7-9DEE-5DE45FCD7539}|ShopTARgv24.ApplicationServices\\ShopTARgv24.ApplicationServices.csproj|solutionrelative:shoptargv24.applicationservices\\services\\realestateservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F0F58A9-65C6-4EC7-9DEE-5DE45FCD7539}|ShopTARgv24.ApplicationServices\\ShopTARgv24.ApplicationServices.csproj|c:\\users\\opilane\\source\\repos\\shoptargv24\\shoptargv24.applicationservices\\services\\spaceshipsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F0F58A9-65C6-4EC7-9DEE-5DE45FCD7539}|ShopTARgv24.ApplicationServices\\ShopTARgv24.ApplicationServices.csproj|solutionrelative:shoptargv24.applicationservices\\services\\spaceshipsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3CF9BF3-97AD-4480-98F4-7CF4EC74AB01}|ShopTARgv24.Core\\ShopTARgv24.Core.csproj|c:\\users\\opilane\\source\\repos\\shoptargv24\\shoptargv24.core\\serviceinterface\\ifileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3CF9BF3-97AD-4480-98F4-7CF4EC74AB01}|ShopTARgv24.Core\\ShopTARgv24.Core.csproj|solutionrelative:shoptargv24.core\\serviceinterface\\ifileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0F58A9-65C6-4EC7-9DEE-5DE45FCD7539}|ShopTARgv24.ApplicationServices\\ShopTARgv24.ApplicationServices.csproj|c:\\users\\opilane\\source\\repos\\shoptargv24\\shoptargv24.applicationservices\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F0F58A9-65C6-4EC7-9DEE-5DE45FCD7539}|ShopTARgv24.ApplicationServices\\ShopTARgv24.ApplicationServices.csproj|solutionrelative:shoptargv24.applicationservices\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC4D9284-B987-4E9F-89EF-BE1A40B96FBC}|ShopTARgv24\\ShopTARgv24.csproj|c:\\users\\opilane\\source\\repos\\shoptargv24\\shoptargv24\\views\\realestate\\createupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DC4D9284-B987-4E9F-89EF-BE1A40B96FBC}|ShopTARgv24\\ShopTARgv24.csproj|solutionrelative:shoptargv24\\views\\realestate\\createupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,62 +30,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SpaceshipsServices.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24.ApplicationServices\\Services\\SpaceshipsServices.cs",
+              "RelativeDocumentMoniker": "ShopTARgv24.ApplicationServices\\Services\\SpaceshipsServices.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24.ApplicationServices\\Services\\SpaceshipsServices.cs",
+              "RelativeToolTip": "ShopTARgv24.ApplicationServices\\Services\\SpaceshipsServices.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T15:59:38.875Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250930152452_init.cs",
-              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24.Data\\Migrations\\20250930152452_init.cs",
-              "RelativeDocumentMoniker": "ShopTARgv24.Data\\Migrations\\20250930152452_init.cs",
-              "ToolTip": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24.Data\\Migrations\\20250930152452_init.cs",
-              "RelativeToolTip": "ShopTARgv24.Data\\Migrations\\20250930152452_init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:24:52.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RealEstateController.cs",
-              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24\\Controllers\\RealEstateController.cs",
-              "RelativeDocumentMoniker": "ShopTARgv24\\Controllers\\RealEstateController.cs",
-              "ToolTip": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24\\Controllers\\RealEstateController.cs",
-              "RelativeToolTip": "ShopTARgv24\\Controllers\\RealEstateController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAIwCEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:22:23.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RealEstateDeleteViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24\\Models\\RealEstate\\RealEstateDeleteViewModel.cs",
-              "RelativeDocumentMoniker": "ShopTARgv24\\Models\\RealEstate\\RealEstateDeleteViewModel.cs",
-              "ToolTip": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24\\Models\\RealEstate\\RealEstateDeleteViewModel.cs",
-              "RelativeToolTip": "ShopTARgv24\\Models\\RealEstate\\RealEstateDeleteViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Title": "IFileServices.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24.Core\\ServiceInterface\\IFileServices.cs",
+              "RelativeDocumentMoniker": "ShopTARgv24.Core\\ServiceInterface\\IFileServices.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24.Core\\ServiceInterface\\IFileServices.cs",
+              "RelativeToolTip": "ShopTARgv24.Core\\ServiceInterface\\IFileServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:21:28.675Z",
+              "WhenOpened": "2025-09-30T15:55:13.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24\\Views\\RealEstate\\Index.cshtml",
-              "RelativeDocumentMoniker": "ShopTARgv24\\Views\\RealEstate\\Index.cshtml",
-              "ToolTip": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24\\Views\\RealEstate\\Index.cshtml",
-              "RelativeToolTip": "ShopTARgv24\\Views\\RealEstate\\Index.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAUwB4AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-30T15:20:14.796Z",
+              "DocumentIndex": 0,
+              "Title": "RealEstateServices.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24.ApplicationServices\\Services\\RealEstateServices.cs",
+              "RelativeDocumentMoniker": "ShopTARgv24.ApplicationServices\\Services\\RealEstateServices.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24.ApplicationServices\\Services\\RealEstateServices.cs",
+              "RelativeToolTip": "ShopTARgv24.ApplicationServices\\Services\\RealEstateServices.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwEIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T15:54:44.248Z",
               "EditorCaption": ""
             },
             {
@@ -104,35 +83,22 @@
               "RelativeDocumentMoniker": "ShopTARgv24.ApplicationServices\\Services\\FileServices.cs",
               "ToolTip": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24.ApplicationServices\\Services\\FileServices.cs",
               "RelativeToolTip": "ShopTARgv24.ApplicationServices\\Services\\FileServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:20:03.269Z",
+              "WhenOpened": "2025-09-30T15:49:45.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SpaceshipsServices.cs",
-              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24.ApplicationServices\\Services\\SpaceshipsServices.cs",
-              "RelativeDocumentMoniker": "ShopTARgv24.ApplicationServices\\Services\\SpaceshipsServices.cs",
-              "ToolTip": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24.ApplicationServices\\Services\\SpaceshipsServices.cs",
-              "RelativeToolTip": "ShopTARgv24.ApplicationServices\\Services\\SpaceshipsServices.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:14:21.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RealEstateServices.cs",
-              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24.ApplicationServices\\Services\\RealEstateServices.cs",
-              "RelativeDocumentMoniker": "ShopTARgv24.ApplicationServices\\Services\\RealEstateServices.cs",
-              "ToolTip": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24.ApplicationServices\\Services\\RealEstateServices.cs",
-              "RelativeToolTip": "ShopTARgv24.ApplicationServices\\Services\\RealEstateServices.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwCQAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:09:21.99Z",
+              "DocumentIndex": 4,
+              "Title": "CreateUpdate.cshtml",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24\\Views\\RealEstate\\CreateUpdate.cshtml",
+              "RelativeDocumentMoniker": "ShopTARgv24\\Views\\RealEstate\\CreateUpdate.cshtml",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\ShopTARgv24\\ShopTARgv24\\Views\\RealEstate\\CreateUpdate.cshtml",
+              "RelativeToolTip": "ShopTARgv24\\Views\\RealEstate\\CreateUpdate.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvzQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T15:48:59.318Z",
               "EditorCaption": ""
             }
           ]

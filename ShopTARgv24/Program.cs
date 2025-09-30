@@ -15,6 +15,7 @@ namespace ShopTARgv24
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddScoped<ISpaceshipsServices, SpaceshipsServices>();
+            builder.Services.AddScoped<IRealEstateServices, RealEstateServices>();
             builder.Services.AddScoped<IFileServices, FileServices>();
 
 

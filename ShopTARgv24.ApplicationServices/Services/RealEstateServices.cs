@@ -34,7 +34,7 @@ namespace ShopTARgv24.ApplicationServices.Services
             realestate.BuildingType = dto.BuildingType;
             realestate.CreatedAt = DateTime.Now;
             realestate.ModifiedAt = DateTime.Now;
-            _fileServices.FilesToApi(dto, realestate);
+
 
             await _context.RealEstate.AddAsync(realestate);
             await _context.SaveChangesAsync();
@@ -63,14 +63,13 @@ namespace ShopTARgv24.ApplicationServices.Services
         {
             RealEstate domain = new();
 
-            domain.Id = Guid.NewGuid();
+            domain.Id = dto.Id;
             domain.Area = dto.Area;
             domain.Location = dto.Location;
             domain.RoomNumber = dto.RoomNumber;
             domain.BuildingType = dto.BuildingType;
-            domain.CreatedAt = DateTime.Now;
+            domain.CreatedAt = dto.CreatedAt;
             domain.ModifiedAt = DateTime.Now;
-            _fileServices.FilesToApi(dto, domain);
 
             _context.RealEstate.Update(domain);
             await _context.SaveChangesAsync();
