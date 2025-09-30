@@ -57,6 +57,11 @@ namespace ShopTARgv24.ApplicationServices.Services
             }
         }
 
+        public void FilesToApi(RealEstateDto dto, RealEstate realestate)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<FileToApi> RemoveImageFromApi(FileToApiDto dto)
         {
             //meil on vaja leida file andmebaasist läbi id ülesse

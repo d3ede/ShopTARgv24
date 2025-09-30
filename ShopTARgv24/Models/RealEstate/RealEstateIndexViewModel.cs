@@ -3,12 +3,11 @@
     public class RealEstateIndexViewModel
     {
         public Guid? Id { get; set; }
-        public string? Name { get; set; }
-        public string? TypeName { get; set; }
-        public DateTime? BuiltDate { get; set; }
-        public int ? Crew {  get; set; }
-        public int? EnginePower { get; set; }
-        public int? Passengers { get; set; }
-        public int? InnerVolume { get; set; }
+        public int? Area { get; set; }
+        public string? Location { get; set; }
+        public int? RoomNumber { get; set; }
+        public int? BuildingType { get; set; }
+        public DateTime? CreatedAt { get; set; }
+        public DateTime? ModifiedAt { get; set; }
     }
 }

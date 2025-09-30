@@ -31,14 +31,14 @@ namespace ShopTARgv24.Controllers
 
         public IActionResult Index()
         {
-            var result = _context.Spaceships
+            var result = _context.RealEstate
                 .Select(x => new Models.RealEstate.RealEstateIndexViewModel
                 {
                     Id = x.Id,
-                    Name = x.Name,
-                    BuiltDate = x.BuiltDate,
-                    TypeName = x.TypeName,
-                    Crew = x.Crew
+                    Area = x.Area,
+                    Location = x.Location,
+                    RoomNumber = x.RoomNumber,
+                    BuildingType = x.BuildingType
                 });
 
             return View(result);
