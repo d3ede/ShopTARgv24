@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using ShopTARgv24.Core.Dto;
 using ShopTARgv24.Core.ServiceInterface;
 using ShopTARgv24.Data;
+using ShopTARgv24.Models.RealEstate;
 using ShopTARgv24.Models.Spaceships;
 
 
@@ -30,7 +31,7 @@ namespace ShopTARgv24.Controllers
         public IActionResult Index()
         {
             var result = _context.Spaceships
-                .Select(x => new RealEstateIndexViewModel
+                .Select(x => new SpaceshipsIndexViewModel
                 {
                     Id = x.Id,
                     Name = x.Name,
@@ -133,7 +134,7 @@ namespace ShopTARgv24.Controllers
         }
 
         [HttpGet]
-        public async Task <IActionResult> Update(Guid id)
+        public async Task<IActionResult> Update(Guid id)
         {
             var spaceship = await _spaceshipsServices.DetailAsync(id);
 
@@ -221,7 +222,6 @@ namespace ShopTARgv24.Controllers
                 }).ToArrayAsync();
 
             var vm = new SpaceshipDetailsViewModel();
-
             vm.Id = spaceship.Id;
             vm.Name = spaceship.Name;
             vm.TypeName = spaceship.TypeName;

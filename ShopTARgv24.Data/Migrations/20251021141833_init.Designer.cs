@@ -12,7 +12,7 @@ using ShopTARgv24.Data;
 namespace ShopTARgv24.Data.Migrations
 {
     [DbContext(typeof(ShopTARgv24Context))]
-    [Migration("20250930154223_init")]
+    [Migration("20251021141833_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -45,17 +45,37 @@ namespace ShopTARgv24.Data.Migrations
                     b.ToTable("FileToApis");
                 });
 
+            modelBuilder.Entity("ShopTARgv24.Core.Domain.FileToDatabase", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<byte[]>("ImageData")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("ImageTitle")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid?>("RealEstateId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("FileToDatabase");
+                });
+
             modelBuilder.Entity("ShopTARgv24.Core.Domain.RealEstate", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int?>("Area")
-                        .HasColumnType("int");
+                    b.Property<double?>("Area")
+                        .HasColumnType("float");
 
-                    b.Property<int?>("BuildingType")
-                        .HasColumnType("int");
+                    b.Property<string>("BuildingType")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("CreatedAt")
                         .HasColumnType("datetime2");
@@ -71,7 +91,7 @@ namespace ShopTARgv24.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("RealEstate");
+                    b.ToTable("RealEstates");
                 });
 
             modelBuilder.Entity("ShopTARgv24.Core.Domain.Spaceship", b =>
