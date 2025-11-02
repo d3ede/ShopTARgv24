@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using ShopTARgv24.ApplicationServices.Services;
 using ShopTARgv24.Core.ServiceInterface;
 using ShopTARgv24.Data;
@@ -11,25 +11,22 @@ namespace ShopTARgv24
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            
+            // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            builder.Services.AddScoped<ISpaceshipsServices, SpaceshipsServices>();
-            builder.Services.AddScoped<IFileServices, FileServices>();
-            builder.Services.AddScoped<IRealEstateServices, RealEstateServices>();
-            builder.Services.AddScoped<IWeatherForecastServices, WeatherForecastServices>();
-
-            builder.Services.AddHttpClient<ChuckNorrisJokeService>();
+            //builder.Services.AddScoped<SpaceshipServices>();
 
             builder.Services.AddDbContext<ShopTARgv24Context>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+
             var app = builder.Build();
 
-            // Конвейер обработки запросов
+            // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
+                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
@@ -37,9 +34,9 @@ namespace ShopTARgv24
             app.UseStaticFiles();
 
             app.UseRouting();
+
             app.UseAuthorization();
 
-            // Единственный маршрут
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
